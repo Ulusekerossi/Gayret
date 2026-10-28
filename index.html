@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Gayret</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#111418">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="Gayret, dein persönlicher Fitness-Tracker für Oberkörper, Unterkörper und Core.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; form-action 'none'; base-uri 'self'">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Gayret">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <main id="screen" aria-live="polite"></main>
+  <div id="bar"></div>
+  <nav class="tabs" id="tabs" aria-label="Hauptnavigation"></nav>
+</div>
+<div id="toast" role="status"></div>
+<noscript><p style="padding:24px">Gayret braucht JavaScript.</p></noscript>
+<script src="logic.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

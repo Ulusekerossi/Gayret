@@ -1,0 +1,13 @@
+{
+  "name": "gayret",
+  "version": "1.0.0",
+  "description": "Gayret, persönlicher Fitness-Tracker als Web-App",
+  "private": true,
+  "scripts": {
+    "test": "node tests/logic.test.js && node tests/ui.test.js",
+    "start": "python3 -m http.server 8080"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0"
+  }
+}
